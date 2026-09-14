@@ -16,6 +16,11 @@ ActiveRecord::Schema[8.0].define(version: 2026_09_12_015305) do
 
   create_table "books", force: :cascade do |t|
     t.string "title"
+    #added these into the database schema
+    t.string "author"
+    t.decimal "price", precision: 10, scale: 2
+    t.date "published_date"
+    
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
