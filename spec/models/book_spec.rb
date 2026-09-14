@@ -18,7 +18,6 @@ RSpec.describe Book, type: :model do
             book = Book.new(title: "Name testing book", author: "Author Name")
             expect(book).to be_valid
         end
-
     end
 
     describe "price" do
