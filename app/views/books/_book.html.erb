@@ -4,4 +4,22 @@
     <%= book.title %>
   </p>
 
+  <%#added new parameters%>
+  <p>
+    <strong>Author:</strong>
+    <%= book.author %>
+  </p>
+
+  <%#AI aided me in finding this function as I was struggling as to why I was recieving an error without it%>
+  <p>
+    <strong>Price:</strong>
+    
+    <%= number_to_currency(book.price) %> 
+  </p>
+
+  <p>
+    <strong>Published Date:</strong>
+    <%= book.published_date %>
+  </p>
+
 </div>
