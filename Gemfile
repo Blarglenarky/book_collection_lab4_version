@@ -64,7 +64,7 @@ end
 
 gem "json", "~> 2.21"
 
-#this lets us use rspec for bc 2
+# this lets us use rspec for bc 2
 group :development, :test do
   gem "rspec-rails"
 end
