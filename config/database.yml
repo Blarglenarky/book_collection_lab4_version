@@ -25,7 +25,7 @@ development:
   database: book_collection_development
   username: <%= ENV["DATABASE_USER"] %>
   password: <%= ENV["DATABASE_PASSWORD"] %>
-  host: localhost
+  host: book_collection_postgres
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -62,7 +62,7 @@ test:
   database: book_collection_test
   username: <%= ENV["DATABASE_USER"] %>
   password: <%= ENV["DATABASE_PASSWORD"] %>
-  host: localhost
+  host: book_collection_postgres
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
