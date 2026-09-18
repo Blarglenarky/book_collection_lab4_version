@@ -62,7 +62,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "json", "~> 2.21"
+gem "json", "~> 3.0"
 
 # this lets us use rspec for bc 2
 group :development, :test do
