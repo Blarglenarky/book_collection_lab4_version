@@ -1,16 +1,52 @@
-<p style="color: green"><%= notice %></p>
+# <p style="color: green"><%= notice %></p>
 
-<% content_for :title, "Books" %>
+# <% content_for :title, "Books" %>
 
-<h1>Jesse Ashen's Books</h1>
+# <h1>Jesse Ashen's Books</h1>
 
-<div id="books">
-  <% @books.each do |book| %>
-    <%= render book %>
-    <p>
-      <%= link_to "Show this book", book %>
-    </p>
-  <% end %>
-</div>
+# <div id="books">
+#   <% @books.each do |book| %>
+#     <%= render book %>
+#     <p>
+#       <%= link_to "Show this book", book %>
+#     </p>
+#   <% end %>
+# </div>
 
-<%= link_to "New book", new_book_path %>
+# <%= link_to "New book", new_book_path %>
+
+<p style="color: green"><%= notice %></p> 
+
+ 
+
+<h1>Jesse Ashens Books</h1> 
+
+<h1>This is the authenticated version 2</h1> 
+
+ 
+
+<h1>You're logged in! Welcome to the Dashboard!</h1> 
+
+<%= link_to "Sign Out", destroy_admin_session_path %> 
+
+ 
+
+<div id="books"> 
+
+  <% @books.each do |book| %> 
+
+    <%= render book %> 
+
+    <p> 
+
+      <%= link_to "Show this book", book %> 
+
+    </p> 
+
+  <% end %> 
+
+</div> 
+
+ 
+
+<%= link_to "New book", new_book_path %> 
