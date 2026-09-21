@@ -16,8 +16,6 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = 'f2bf6af4294100bff80124e8e2ef1c1c62494965c935fce5cc7f6dee37c09756ca3f5ce1abcfc222d5a04d78b40e65c8f38345e6d16227a74984c3098819c98f'
 
-  config.omniauth :google_oauth2, "970652841615-1e31pa4leb3esd7jiij8afbh3ldt0uja.apps.googleusercontent.com"
-  "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"
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
@@ -312,4 +310,5 @@ Devise.setup do |config|
   # When set to false, does not sign a user in automatically after their password is
   # changed. Defaults to true, so a user is signed in automatically after changing a password.
   # config.sign_in_after_change_password = true
+  config.omniauth :google_oauth2, "970652841615-1e31pa4leb3esd7jiij8afbh3ldt0uja.apps.googleusercontent.com", "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"
 end
