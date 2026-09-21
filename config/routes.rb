@@ -1,6 +1,6 @@
 Rails.application.routes.draw do 
 
-  root to: 'dashboards#show' 
+  root 'books#index' 
 
  
 
@@ -14,6 +14,6 @@ Rails.application.routes.draw do
 
   end 
 
- 
+  resources :books 
 
 end 
