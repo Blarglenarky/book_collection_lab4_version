@@ -77,3 +77,8 @@ gem "omniauth-rails_csrf_protection", "~> 1.0"
 
 gem "omniauth-google-oauth2", "~> 1.1" 
 
+group :development do 
+
+  	  gem 'brakeman' 
+
+end 
