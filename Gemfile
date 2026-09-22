@@ -69,7 +69,7 @@ group :development, :test do
   gem "rspec-rails"
 end
 
-gem 'devise', '~>4.9' 
+gem 'devise', '~>5.0' 
 
 gem "omniauth", "~> 2.1" 
 
